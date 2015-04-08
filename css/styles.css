@@ -6,6 +6,7 @@ body {
     background: #ecf0f1;
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #172765;
+	letter-spacing: 1px;
 }
 h1, h2, h3 {
 	font-family: "Times New Roman", Georgia, Serif;
@@ -38,6 +39,17 @@ img {
 /*-------------*/
 .logo img {
 	padding: 5px;
+}
+.logo-text {
+	text-align: center;
+	font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.logo-text span{
+	color: #fff;
+	text-shadow: none;
 }
 .header-content {
     background: #172765;
@@ -73,6 +85,12 @@ img {
 	font-size: 12px;
 	text-align: center;
 }
+.copyright .logo-text {
+    font-size: 16px;
+    line-height: 11px;
+    padding: 30% 0 10%;
+    text-shadow: none;
+}
 .contact {
 	background: #172765;
 }
@@ -82,4 +100,19 @@ img {
 .slider-image {
 	background-image: url('../images/slider.jpeg');
 	background-size: cover; 
+}
+.header-content .logo-text {
+    color: #edac27;
+    font-size: 30px;
+    line-height: 20px;
+    padding-top: 11%;
+}
+.slogan-text {
+	color: #edac27;
+	padding: 5px 0 5px 10px;
+	border-left: 2px solid #edac27;
+	display: block;
+	margin-top: 10%;
+	font-style: italic;
+	line-height: 24px;
 }
