@@ -125,8 +125,11 @@ img {
 }
 .main-content h2, .contact h2 {
     font-size: 28px;
-    padding: 10% 0 4% 10%;
+    padding: 10% 0 1% 10%;
 }
-.main-content .content p {
+.main-content .content p, .contact .content p {
 	padding: 0 10%;
+}
+.contact {
+	color: #fff;
 }
